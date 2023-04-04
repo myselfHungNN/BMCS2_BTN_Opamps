@@ -25,21 +25,6 @@
 			<Item Name="send  Notification(SubVI).vi" Type="VI" URL="../subVIs/send  Notification(SubVI).vi"/>
 			<Item Name="TrapError (SubVI).vi" Type="VI" URL="../subVIs/TrapError (SubVI).vi"/>
 		</Item>
-		<Item Name="controls" Type="Folder">
-			<Item Name="All Channel Settings.ctl" Type="VI" URL="../controls/All Channel Settings.ctl"/>
-			<Item Name="AmplifierTypes.ctl" Type="VI" URL="../controls/AmplifierTypes.ctl"/>
-			<Item Name="App Cluster.ctl" Type="VI" URL="../controls/App Cluster.ctl"/>
-			<Item Name="Channel Selection.ctl" Type="VI" URL="../controls/Channel Selection.ctl"/>
-			<Item Name="Channel Settings.ctl" Type="VI" URL="../controls/Channel Settings.ctl"/>
-			<Item Name="OpAmp Amplifiers.ctl" Type="VI" URL="../controls/OpAmp Amplifiers.ctl"/>
-			<Item Name="Pico Cluster.ctl" Type="VI" URL="../controls/Pico Cluster.ctl"/>
-			<Item Name="Ranges.ctl" Type="VI" URL="../controls/Ranges.ctl"/>
-			<Item Name="Sampling Infor.ctl" Type="VI" URL="../controls/Sampling Infor.ctl"/>
-			<Item Name="TimeBase Cluster.ctl" Type="VI" URL="../controls/TimeBase Cluster.ctl"/>
-			<Item Name="Times&amp;Values.ctl" Type="VI" URL="../controls/Times&amp;Values.ctl"/>
-			<Item Name="Transitor_BC.ctl" Type="VI" URL="../controls/Transitor_BC.ctl"/>
-			<Item Name="Trigger Cluster.ctl" Type="VI" URL="../controls/Trigger Cluster.ctl"/>
-		</Item>
 		<Item Name="picoScope" Type="Folder">
 			<Item Name="ps2000 Close (SubVI).vi" Type="VI" URL="../subVIs/pico/ps2000 Close (SubVI).vi"/>
 			<Item Name="ps2000 Data Convert.vi" Type="VI" URL="../subVIs/pico/ps2000 Data Convert.vi"/>
@@ -68,6 +53,21 @@
 			<Item Name="Select Opamp.vi" Type="VI" URL="../Select Opamp.vi"/>
 			<Item Name="Select Trans.vi" Type="VI" URL="../Select Trans.vi"/>
 			<Item Name="TestDurarion.vi" Type="VI" URL="../subVIs/TestDurarion.vi"/>
+		</Item>
+		<Item Name="type defs" Type="Folder">
+			<Item Name="All Channel Settings.ctl" Type="VI" URL="../controls/All Channel Settings.ctl"/>
+			<Item Name="AmplifierTypes.ctl" Type="VI" URL="../controls/AmplifierTypes.ctl"/>
+			<Item Name="App Cluster.ctl" Type="VI" URL="../controls/App Cluster.ctl"/>
+			<Item Name="Channel Selection.ctl" Type="VI" URL="../controls/Channel Selection.ctl"/>
+			<Item Name="Channel Settings.ctl" Type="VI" URL="../controls/Channel Settings.ctl"/>
+			<Item Name="OpAmp Amplifiers.ctl" Type="VI" URL="../controls/OpAmp Amplifiers.ctl"/>
+			<Item Name="Pico Cluster.ctl" Type="VI" URL="../controls/Pico Cluster.ctl"/>
+			<Item Name="Ranges.ctl" Type="VI" URL="../controls/Ranges.ctl"/>
+			<Item Name="Sampling Infor.ctl" Type="VI" URL="../controls/Sampling Infor.ctl"/>
+			<Item Name="TimeBase Cluster.ctl" Type="VI" URL="../controls/TimeBase Cluster.ctl"/>
+			<Item Name="Times&amp;Values.ctl" Type="VI" URL="../controls/Times&amp;Values.ctl"/>
+			<Item Name="Transitor_BC.ctl" Type="VI" URL="../controls/Transitor_BC.ctl"/>
+			<Item Name="Trigger Cluster.ctl" Type="VI" URL="../controls/Trigger Cluster.ctl"/>
 		</Item>
 		<Item Name="KDTHN_Main.vi" Type="VI" URL="../KDTHN_Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
