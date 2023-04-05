@@ -25,50 +25,35 @@
 			<Item Name="send  Notification(SubVI).vi" Type="VI" URL="../subVIs/send  Notification(SubVI).vi"/>
 			<Item Name="TrapError (SubVI).vi" Type="VI" URL="../subVIs/TrapError (SubVI).vi"/>
 		</Item>
-		<Item Name="picoScope" Type="Folder">
-			<Item Name="ps2000 Close (SubVI).vi" Type="VI" URL="../subVIs/pico/ps2000 Close (SubVI).vi"/>
-			<Item Name="ps2000 Data Convert.vi" Type="VI" URL="../subVIs/pico/ps2000 Data Convert.vi"/>
-			<Item Name="ps2000 Get Timebase (SubVI).vi" Type="VI" URL="../subVIs/pico/ps2000 Get Timebase (SubVI).vi"/>
-			<Item Name="ps2000 Get TimesandValues (SubVI).vi" Type="VI" URL="../subVIs/pico/ps2000 Get TimesandValues (SubVI).vi"/>
-			<Item Name="ps2000 Open (SubVI).vi" Type="VI" URL="../subVIs/pico/ps2000 Open (SubVI).vi"/>
-			<Item Name="ps2000 Ready(SubVI).vi" Type="VI" URL="../subVIs/pico/ps2000 Ready(SubVI).vi"/>
-			<Item Name="ps2000 Run Block (SubVI).vi" Type="VI" URL="../subVIs/pico/ps2000 Run Block (SubVI).vi"/>
-			<Item Name="ps2000 Set A Channel(SubVI).vi" Type="VI" URL="../subVIs/pico/ps2000 Set A Channel(SubVI).vi"/>
-			<Item Name="ps2000 Set Trigger 2(SubVI).vi" Type="VI" URL="../subVIs/pico/ps2000 Set Trigger 2(SubVI).vi"/>
-			<Item Name="ps2000 Set Trigger(SubVI).vi" Type="VI" URL="../subVIs/pico/ps2000 Set Trigger(SubVI).vi"/>
-			<Item Name="ps2000 Stop (SubVI).vi" Type="VI" URL="../subVIs/pico/ps2000 Stop (SubVI).vi"/>
+		<Item Name="LVDriver_Instruments" Type="Folder">
+			<Item Name="picoscope2000.lvlib" Type="Library" URL="../LVDrivers_Instruments/picoscope2000a/picoscope2000.lvlib"/>
+			<Item Name="uno3.lvlib" Type="Library" URL="../LVDrivers_Instruments/uno3/uno3.lvlib"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="ads9850_setFreq (SubVI).vi" Type="VI" URL="../ads9850_setFreq (SubVI).vi"/>
-			<Item Name="UNO3_AmplifierType (SubVI).vi" Type="VI" URL="../subVIs/UNO3_AmplifierType (SubVI).vi"/>
 			<Item Name="Offset 2 chan (SubVI).vi" Type="VI" URL="../subVIs/Offset 2 chan (SubVI).vi"/>
 			<Item Name="FFT 2 chan (SubVI).vi" Type="VI" URL="../subVIs/FFT 2 chan (SubVI).vi"/>
-			<Item Name="UNO3_Set Trans (SubVI).vi" Type="VI" URL="../subVIs/UNO3_Set Trans (SubVI).vi"/>
-			<Item Name="UNO3 Set Amplitude (SubVI).vi" Type="VI" URL="../subVIs/UNO3 Set Amplitude (SubVI).vi"/>
 			<Item Name="Read TestDuration.vi" Type="VI" URL="../subVIs/Read TestDuration.vi"/>
-			<Item Name="UNO3 Set Opamps (SubVI).vi" Type="VI" URL="../subVIs/UNO3 Set Opamps (SubVI).vi"/>
-			<Item Name="UNO3_OpampType (SubVI).vi" Type="VI" URL="../subVIs/UNO3_OpampType (SubVI).vi"/>
-			<Item Name="UNO3_Set Opamps(SubVI).vi" Type="VI" URL="../subVIs/UNO3_Set Opamps(SubVI).vi"/>
 			<Item Name="Select Opamp.vi" Type="VI" URL="../Select Opamp.vi"/>
 			<Item Name="Select Trans.vi" Type="VI" URL="../Select Trans.vi"/>
 			<Item Name="TestDurarion.vi" Type="VI" URL="../subVIs/TestDurarion.vi"/>
 		</Item>
 		<Item Name="type defs" Type="Folder">
 			<Item Name="All Channel Settings.ctl" Type="VI" URL="../controls/All Channel Settings.ctl"/>
-			<Item Name="AmplifierTypes.ctl" Type="VI" URL="../controls/AmplifierTypes.ctl"/>
-			<Item Name="App Cluster.ctl" Type="VI" URL="../controls/App Cluster.ctl"/>
-			<Item Name="Channel Selection.ctl" Type="VI" URL="../controls/Channel Selection.ctl"/>
+			<Item Name="AmplifierTypes.ctl" Type="VI" URL="../type defs/AmplifierTypes.ctl"/>
+			<Item Name="App Cluster.ctl" Type="VI" URL="../type defs/App Cluster.ctl"/>
+			<Item Name="Channel Selection.ctl" Type="VI" URL="../type defs/Channel Selection.ctl"/>
 			<Item Name="Channel Settings.ctl" Type="VI" URL="../controls/Channel Settings.ctl"/>
-			<Item Name="OpAmp Amplifiers.ctl" Type="VI" URL="../controls/OpAmp Amplifiers.ctl"/>
-			<Item Name="Pico Cluster.ctl" Type="VI" URL="../controls/Pico Cluster.ctl"/>
+			<Item Name="OpAmp Amplifiers.ctl" Type="VI" URL="../type defs/OpAmp Amplifiers.ctl"/>
+			<Item Name="Pico Cluster.ctl" Type="VI" URL="../type defs/Pico Cluster.ctl"/>
 			<Item Name="Ranges.ctl" Type="VI" URL="../controls/Ranges.ctl"/>
-			<Item Name="Sampling Infor.ctl" Type="VI" URL="../controls/Sampling Infor.ctl"/>
-			<Item Name="TimeBase Cluster.ctl" Type="VI" URL="../controls/TimeBase Cluster.ctl"/>
-			<Item Name="Times&amp;Values.ctl" Type="VI" URL="../controls/Times&amp;Values.ctl"/>
+			<Item Name="Sampling Infor.ctl" Type="VI" URL="../type defs/Sampling Infor.ctl"/>
+			<Item Name="TimeBase Cluster.ctl" Type="VI" URL="../type defs/TimeBase Cluster.ctl"/>
+			<Item Name="Times&amp;Values.ctl" Type="VI" URL="../type defs/Times&amp;Values.ctl"/>
 			<Item Name="Transitor_BC.ctl" Type="VI" URL="../controls/Transitor_BC.ctl"/>
-			<Item Name="Trigger Cluster.ctl" Type="VI" URL="../controls/Trigger Cluster.ctl"/>
+			<Item Name="Trigger Cluster.ctl" Type="VI" URL="../type defs/Trigger Cluster.ctl"/>
 		</Item>
+		<Item Name="All Channel Settings.ctl" Type="VI" URL="../type defs/All Channel Settings.ctl"/>
 		<Item Name="KDTHN_Main.vi" Type="VI" URL="../KDTHN_Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -126,11 +111,10 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 			</Item>
+			<Item Name="Channel Settings.ctl" Type="VI" URL="../type defs/Channel Settings.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="ps2000.dll" Type="Document" URL="ps2000.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="ps2000.dll" Type="Document" URL="../ps2000.dll"/>
+			<Item Name="Ranges.ctl" Type="VI" URL="../type defs/Ranges.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="KDTHN" Type="EXE">
