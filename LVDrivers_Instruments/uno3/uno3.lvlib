@@ -16,4 +16,6 @@
 		<Item Name="UNO3_Set Trans (SubVI).vi" Type="VI" URL="../../../subVIs/UNO3_Set Trans (SubVI).vi"/>
 	</Item>
 	<Item Name="type defs" Type="Folder"/>
+	<Item Name="amplitude to string (SubVI).vi" Type="VI" URL="../privates/amplitude to string (SubVI).vi"/>
+	<Item Name="freq to string (SubVI).vi" Type="VI" URL="../privates/freq to string (SubVI).vi"/>
 </Library>
